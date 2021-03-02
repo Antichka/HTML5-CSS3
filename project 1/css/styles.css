@@ -7,7 +7,7 @@ body {
     margin: 0 auto;
     border: 5px solid red;
     box-sizing: border-box;
-    font-family: Arial;
+    font-family: "Arial MT";
 }
 
 .page-header {
@@ -16,6 +16,11 @@ body {
     color: #fff;
     padding: 50px;
     box-sizing: border-box;
+    font-size: 60px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
 }
 
 .page-header:after {
@@ -27,7 +32,11 @@ body {
 
 .page-header-wrp {
     width: 500px;
-    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 36p box-sizing: border-box;
     float: left;
 }
 
@@ -70,26 +79,32 @@ body {
     display: block;
     float: right;
     width: 469px;
-    height: 214px;
+    min-height: 214px;
     background-color: #ffffff;
 }
 
 .about-product {
     width: 100%;
-    color: #445161;
     padding: 50px;
     box-sizing: border-box;
 }
 
+.about-product::after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
 .about-product-wrp {
-    width: 650px;
-    box-sizing: border-box;
+    width: 700px;
     float: left;
+    box-sizing: border-box;
 }
 
 .about-product-title {
+    margin: 0 0 30px 0;
     color: #445161;
-    font-family: "Arial MT";
     font-size: 30px;
     font-weight: 400;
     font-style: normal;
@@ -98,11 +113,39 @@ body {
     text-align: left;
 }
 
-/* сюда другой код */
+.about-product-txt {
+    margin: 0 0 20px 0;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+}
+
+.about-product-video {
+    display: block;
+    float: right;
+    background-image: url(../img/video.png);
+}
 
 .dignity {
     background-color: #f5f5f5;
     padding: 50px 50px 15px 50px;
+    box-sizing: border-box;
+}
+
+.dignity-title {
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 36px;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
 }
 
 .dignity-list {
@@ -115,10 +158,45 @@ body {
 .dignity-list-item {
     width: 45%;
     margin: 0 0 35px 0;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    position: relative;
+}
+
+.dignity-list-item::before {
+    content: "";
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-size: cover;
+    position: absolute;
+    top: 20px;
+    left: -41px;
+    background-image: url(../img/plus_icon.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .screenshots {
     padding: 50px;
+}
+
+.screenshots-header {
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 36px;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
 }
 
 .screenshots-list {
@@ -134,13 +212,40 @@ body {
 }
 
 .description-wrp {
-    width: 360px;
+    width: 68%;
     float: right;
 }
 
+.description-header {
+    margin: 0 0 15px 15px;
+    color: #445161;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 30px;
+    text-align: left;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+}
+
+.description-text {
+    margin: 15px;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: left;
+}
+
 .description-img {
+    margin: 0 0 30px 0;
+    display: block;
     width: 200px;
-    height: 150px;
+    min-height: 150px;
     box-sizing: border-box;
     background-image: url(../img/image.png);
     float: left;
