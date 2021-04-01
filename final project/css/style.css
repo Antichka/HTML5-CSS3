@@ -84,6 +84,7 @@
 .logo-txt {
     font-family: raleway-regular, arial, sans-serif;
     font-size: 34px;
+    text-transform: capitalize;
 }
 
 .header-menu {
@@ -1133,3 +1134,300 @@
 .partners-logo:hover {
     filter: blur(2px);
 }
+
+.footer-wrp {
+    width: 100%;
+}
+
+.footer-wrp-top {
+    padding: 80px;
+    box-sizing: border-box;
+    background-color: #191919;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.waxom-mini {
+    width: 260px;
+    margin: 0 40px 0 0;
+}
+
+.waxom-mini-txt {
+    color: #555555;
+    font-family: montserrat-regular, arial, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 30px 0 35px 0;
+    hyphens: auto;
+}
+
+.waxom-mini-txt:hover {
+    color: #c7b299;
+}
+
+.waxom-mini-txt:active {
+    color: #bb7947;
+}
+
+.waxom-mini-read-btn-link {
+    text-decoration: none;
+}
+
+.waxom-mini-read-btn-link:hover .waxom-mini-read-btn-link-txt {
+    color: #c7b299;
+}
+
+.waxom-mini-read-btn-link:hover .waxom-mini-read-btn-link-txt::after {
+    border: 5px solid transparent;
+    border-left: 5px solid #c7b299;
+}
+
+.waxom-mini-read-btn-link:active .waxom-mini-read-btn-link-txt {
+    color: #bb7947;
+}
+
+.waxom-mini-read-btn-link:active .waxom-mini-read-btn-link-txt::after {
+    border: 5px solid transparent;
+    border-left: 5px solid #bb7947;
+}
+
+.waxom-mini-read-btn-link-txt {
+    color: #d1d1d1;
+    font-family: montserrat-regular, arial, sans-serif;
+    font-size: 14px;
+    text-transform: capitalize;
+    position: relative;
+}
+
+.waxom-mini-read-btn-link-txt::after {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 85px;
+    border: 5px solid transparent;
+    border-left: 5px solid #d1d1d1;
+}
+
+.recent-posts-mini {
+    width: 270px;
+    margin: 0 30px 0 0;
+}
+
+.recent-posts-mini-header {
+    text-transform: capitalize;
+    color: #ffffff;
+    font-family: raleway-regular, arial, sans-serif;
+    font-size: 24px;
+    margin: 30px 0 10px 0;
+}
+
+.recent-posts-mini-header:hover {
+    color: #c7b299;
+}
+
+.recent-posts-mini-header:active {
+    color: #bb7947;
+}
+
+.recent-posts-mini-link {
+    text-decoration: none;
+    margin: 0;
+    padding: 20px 20px 20px 0;
+    border-bottom: 1px solid #252525;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    color: #555555;
+    font-family: montserrat-regular, arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    hyphens: auto;
+}
+
+.recent-posts-mini-link:hover {
+    color: #c7b299;
+}
+
+.recent-posts-mini-link:active {
+    color: #bb7947;
+}
+
+.recent-posts-mini-link:last-child {
+    border: none;
+}
+
+.recent-posts-mini-link-time {
+    margin: 0 0 10px 0;
+    color: #363636;
+    font-family: montserrat-regular, arial, sans-serif;
+    font-size: 12px;
+}
+
+.recent-posts-mini-link-time:hover {
+    color: #ffffff;
+}
+
+.recent-posts-mini-link-time:active {
+    color: #c7b299;
+}
+
+.twitter-mini {
+    width: 275px;
+    margin: 0 30px 0 0;
+}
+
+.twitter-mini-header {
+    text-transform: capitalize;
+    color: #ffffff;
+    font-family: raleway-regular, arial, sans-serif;
+    font-size: 24px;
+    margin: 30px 0 10px 0;
+}
+
+.twitter-mini-header:hover {
+    color: #c7b299;
+}
+
+.twitter-mini-header:active {
+    color: #bb7947;
+}
+
+.twitter-mini-link {
+    text-decoration: none;
+    margin: 0;
+    padding: 20px 0 20px 0;
+    border-bottom: 1px solid #252525;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    color: #555555;
+    font-family: montserrat-regular, arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.twitter-mini-link:hover {
+    color: #c7b299;
+}
+
+.twitter-mini-link:active {
+    color: #bb7947;
+}
+
+.twitter-mini-link:last-child {
+    border: none;
+}
+
+.twitter-mini-hashtag {
+    margin: 0;
+    color: #00bff3;
+}
+
+.twitter-mini-link-time {
+    color: #363636;
+    font-family: montserrat-regular, arial, sans-serif;
+    font-size: 12px;
+    margin: 10px 0 0 0;
+}
+
+.twitter-mini-link-time:hover {
+    color: #ffffff;
+}
+
+.twitter-mini-link-time:active {
+    color: #c7b299;
+}
+
+.twitter-mini-link-child {
+    color: #959595;
+}
+
+.twitter-mini-link-child:hover {
+    color: #8f8374;
+}
+
+.twitter-mini-link-child:active {
+    color: #cca282;
+}
+
+.footer-widget {
+    width: 270px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-widget-header {
+    width: 100%;
+    text-transform: capitalize;
+    color: #ffffff;
+    font-family: raleway-regular, arial, sans-serif;
+    font-size: 24px;
+    margin: 30px 0 25px 0;
+}
+
+.footer-widget-header:hover {
+    color: #c7b299;
+}
+
+.footer-widget-header:active {
+    color: #bb7947;
+}
+
+.footer-widget-item {
+    width: 130px;
+    height: 98px;
+    margin: 0 0 10px 0;
+}
+
+.footer-widget-item:hover {
+    filter: brightness(60%);
+}
+
+.footer-widget-item:active {
+    filter: brightness(30%);
+}
+
+.footer-widget-phone {
+    background-image: url(../img/widget-phone.png);
+}
+
+.footer-widget-bag {
+    background-image: url(../img/widget-bag.png);
+}
+
+.footer-widget-book {
+    background-image: url(../img/widget-book.png);
+}
+
+.footer-widget-icons {
+    background-image: url(../img/widget-icon.png);
+}
+
+.footer-wrp-bottom {}
+
+.footer-wrp-bottom-nav {}
+
+.footer-wrp-bottom-nav-item {}
+
+.footer-wrp-bottom-nav-item-link {}
+
+.footer-wrp-bottom-nav-item-link-copy-waxom {}
+
+.footer-wrp-bottom-nav-item-link-pp {}
+
+.footer-wrp-bottom-nav-item-link-faq {}
+
+.footer-wrp-bottom-nav-item-link-support {}
+
+.footer-wrp-bottom-design {}
+
+.footer-wrp-bottom-design-item {}
+
+.footer-wrp-bottom-design-item-link {}
+
+.footer-wrp-bottom-design-item-link-theme {}
+
+.footer-wrp-bottom-design-item-link-market {}
